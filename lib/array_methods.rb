@@ -2,10 +2,10 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   array.length.time{ |index|
     if array[index] == value_to_find
-      return true
+      return index
     end
   }
-  return false
+  return nil
 end
 
 def find_max_value(array)
